@@ -1,0 +1,19 @@
+.SplashScreen{
+   position: relative;
+   font-size: 30px;
+   margin-top: 25%;
+   margin-bottom: auto; 
+   text-align: center;
+   display: block;
+}
+
+@media all and (max-width:800px) {
+    .SplashScreen{
+        position: relative;
+        font-size: 30px;
+        margin-top: 70%;
+        margin-bottom: auto; 
+        text-align: center;
+        display: block;
+    }
+}
