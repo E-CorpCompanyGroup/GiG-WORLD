@@ -1,5 +1,5 @@
 SPLASHSCREEN=()=>{
-    fetch('../PAGES/splashScreen.txt')
+    fetch(SPLASHSCREENLINK)
     .then((res)=>res.text())
     .then((data)=>{
         DIV.innerHTML=data
